@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="score-board">
+            <div class="score">
+                <p>Player: <span id="player-score">0</span></p>
+                <p>Computer: <span id="computer-score">0</span></p>
+            </div>
+        </div>
+        <div class="result">
+            <p id="result-text">Choose your move!</p>
+        </div>
+        <div class="choices">
+            <button class="choice" id="rock">
+                <img src="https://raw.githubusercontent.com/your-username/rock-paper-scissors/main/images/rock.png" alt="Rock" class="choice-img">
+            </button>
+            <button class="choice" id="paper">
+                <img src="https://raw.githubusercontent.com/your-username/rock-paper-scissors/main/images/paper.png" alt="Paper" class="choice-img">
+            </button>
+            <button class="choice" id="scissors">
+                <img src="https://raw.githubusercontent.com/your-username/rock-paper-scissors/main/images/scissors.png" alt="Scissors" class="choice-img">
+            </button>
+        </div>
+        <div class="moves">
+            <div class="move">
+                <p>Your Move</p>
+                <div id="player-move" class="move-icon"></div>
+            </div>
+            <div class="move">
+                <p>Computer's Move</p>
+                <div id="computer-move" class="move-icon"></div>
+            </div>
+        </div>
+        <button id="reset" class="reset-btn">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
